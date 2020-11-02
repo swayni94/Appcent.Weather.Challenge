@@ -1,0 +1,16 @@
+.idea
+.gradle
+/*/local.properties
+/*/out
+/*/*/build
+build
+/*/*/production
+*.iml
+*.iws
+*.ipr
+*~
+*.swp
+/app/
+/gradle/
+/build/
+/app/src/main/java/

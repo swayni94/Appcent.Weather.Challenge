@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.WeatherWoeidToTimeFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/weather_time_date"
+            android:textSize="40sp"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/weather_time_recyclerView"
+            android:layout_marginTop="65dp"
+            android:layout_alignTop="@+id/weather_time_date"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" />
+    </RelativeLayout>
+</FrameLayout>
